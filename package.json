@@ -1,0 +1,29 @@
+{
+	"name": "themely-io",
+	"version": "0.1.0",
+	"author": "Adam Eisfeld",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"files": ["lib/**/*"],
+	"license": "Apache-2.0",
+	"description": "Themely simplifies theming your web applications.",
+	"keywords": [
+		"theme", "css", "dark mode", "dynamic"
+	],
+	"devDependencies": {
+		"typescript": "^4.3.2"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AdamEisfeld/themely.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AdamEisfeld/themely/issues"
+	},
+	"homepage": "https://github.com/AdamEisfeld/themely#readme"
+}
