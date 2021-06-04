@@ -1,4 +1,4 @@
-export default class ThemeHelper {
+export default class Themely {
 
 	private internalThemes: string[];
 	private internalCurrentTheme: string;
