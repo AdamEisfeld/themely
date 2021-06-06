@@ -4,11 +4,16 @@
 	"author": "Adam Eisfeld",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
-	"files": ["lib/**/*"],
+	"files": [
+		"lib/**/*"
+	],
 	"license": "Apache-2.0",
 	"description": "Themely simplifies theming your web applications.",
 	"keywords": [
-		"theme", "css", "dark mode", "dynamic"
+		"theme",
+		"css",
+		"dark mode",
+		"dynamic"
 	],
 	"devDependencies": {
 		"typescript": "^4.3.2"
